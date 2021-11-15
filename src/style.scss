@@ -1,0 +1,174 @@
+@font-face {
+  font-family: 'gill-sans-mt-pro-heavy';
+  src: url('gill-sans-mt-pro-heavy.otf');
+}
+$font-color1: #f9eba6;
+$font-color2: #f8e28d;
+$font-color3: #f8e790;
+$border: #ffd65a;
+$radius: 10px;
+$font-size-evo: 12px;
+$font-size-nom: 27px;
+$font-size-down: 13px;
+$weight: bold;
+$font: 'gill-sans-mt-pro-heavy';
+$colorPV: #ec1720;
+$description: #d2b04c;
+$color-bar: black;
+
+.App {
+  background: $font-color1;
+  background: -moz-linear-gradient(
+    -45deg,
+    $font-color1 0%,
+    $font-color2 50%,
+    $font-color3 100%
+  );
+  background: -webkit-linear-gradient(
+    -45depxg,
+    $font-color1 0%,
+    $font-color2 50%,
+    $font-color3 100%
+  );
+  background: linear-gradient(135deg, #f9eba6 0%, #f8e28d 50%, #f8e790 100%);
+  width: 572px;
+  height: 850px;
+  border: 34px solid $border;
+  border-radius: $radius $radius $radius $radius;
+  margin: auto;
+}
+
+.niveauEvo {
+  font-size: $font-size-evo;
+  margin-top: 13px;
+  margin-left: 32px;
+  font-family: $font;
+  font-weight: $weight;
+}
+
+.nomPokemon {
+  font-size: $font-size-nom;
+  margin-top: -15px;
+  margin-left: 32px;
+  font-family: $font;
+  font-weight: $weight;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.PV {
+  color: $colorPV;
+  font-family: $font;
+  font-weight: $weight;
+  margin-left: 313px;
+}
+
+.eclair {
+  width: 39px;
+  height: 39px;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+.eclairSkill2 {
+  width: 39px;
+  height: 39px;
+}
+
+.normal {
+  width: 39px;
+  height: 39px;
+}
+
+.normalRetraite {
+  width: 39px;
+  height: 39px;
+  margin-left: 50px;
+}
+
+.combat {
+  width: 39px;
+  height: 39px;
+}
+
+.combatRetraite {
+  width: 39px;
+  height: 39px;
+  margin-left: 10px;
+}
+
+.pikachu {
+  width: 506px;
+  height: 348px;
+  margin-top: -45px;
+  margin-left: 32px;
+}
+
+.description {
+  background-color: $description;
+  width: 80%;
+  text-align: center;
+  margin-left: 60px;
+  margin-top: 7px;
+  font-weight: $weight;
+}
+
+.skill1 {
+  font-weight: $weight;
+  font-size: $font-size-nom;
+  font-family: $font;
+  display: flex;
+  justify-content: space-around;
+  margin: -20px;
+}
+
+.skill2 {
+  font-weight: $weight;
+  font-size: $font-size-nom;
+  font-family: $font;
+  display: flex;
+  justify-content: center;
+}
+
+.detailSkill {
+  font-weight: lighter;
+  font-size: 24px;
+}
+
+.downBar {
+  width: 488px;
+  height: 3px;
+  background-color: $color-bar;
+  margin-left: 50px;
+}
+
+.downCard1 {
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: $weight;
+  font-size: $font-size-down;
+  margin-left: 40px;
+}
+.downCard2 {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 10px;
+}
+
+.lore {
+  border: 3px solid $description;
+  width: 80%;
+  text-align: center;
+  margin-left: 60px;
+  margin-top: 7px;
+  font-weight: $weight;
+}
+
+.rare {
+  text-align: right;
+  font-weight: $weight;
+  margin-right: 10px;
+}
